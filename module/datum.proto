@@ -1,0 +1,10 @@
+syntax = "proto2";
+message Datum{
+    optional int32 frame_length = 1;
+    optional int32 feature_dim = 2;
+    optional int32 speaker_label = 3;
+    optional int32 channel_label = 4;
+    optional int32 state_label = 5;
+    optional bytes data = 6;
+    optional bytes wave_name = 7;
+}
